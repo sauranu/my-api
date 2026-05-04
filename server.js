@@ -11,7 +11,7 @@ app.get("/pnr/:pnrNumber", async (req, res) => {
       `https://example-railway-api/pnr/${req.params.pnrNumber}`,
       {
         headers: {
-          "X-RapidAPI-Key": "YOUR_API_KEY",
+          "X-RapidAPI-Key": "60efdbf79fmsh98161575e1c1ebfp1920e6jsn48b39c713917",
         },
       }
     );
